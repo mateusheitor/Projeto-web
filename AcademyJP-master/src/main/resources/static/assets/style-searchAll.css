@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* classes Auxiliares */
+.containerAux {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2% 2%;
+}
+
+.center {
+	text-align: center;
+	color: #fff;
+	font-family: 'Open Sans', serif;
+	font-weight: bold;
+	font-size: 3em;
+}
+
+
+.pesquisa{background-color: #9b59b6; color: #fff; height: 38px; }
+
+.title {
+	font-size: 1.3em;
+	color: #fff;
+}
+.card-title{
+	text-transform: uppercase;
+	font-family: 'Roboto', serif;
+	font-weight: normal;
+}
+.titulo{
+	font-family: 'Roboto', serif;
+	text-transform: uppercase;
+	font-size: 1.7em;
+	margin-top: 40px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Open Sans', serif;
+	font-weight: bold;
+	transition: 0.3s;
+	font-size: 1em;
+}
+.navbar-toggler{
+	background-color: rgba(255,255,255,0.8);
+}
+.navbar a:hover {
+	color: #6D214F
+}
+
+#close {
+	color: #fff;
+}
+
+#close:hover {
+	border: 1px solid #d63031;
+	border-radius: 8%;
+	color: #d63031;
+}
+
+
+/*Formatação Labels */
+.lbl{font-size: 1.2em; font-family: 'Open Sans', serif; font-weight: normal;}
+
+
+.bt{
+	background: #fff;
+	color: #8e44ad;
+	border: 1px solid #8e44ad;
+	border-radius: 6px;
+	padding: 7px;
+	transition: 0.5s;
+}
+.bt:hover{color: #fff; background: #8e44ad;}
+
+/* Responsividade */
+@media screen and(max-width: 798px) {
+	.navbar li {
+		width: 100%;
+		display: block;
+	}
+	.teste{
+		margin-left: 5%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.search .pesquisa{font-size: 0.8em; font-weight: normal;}
+	td{display: inline-block;}
+	tr{display: block;}
+	th{display: inline-block;}
+	thead{display: inline-block;}
+	.table{display: inline-block;}
+	section.secao{
+	background-position: center;
+	}
+	.title-bg{
+		font-size: 2em;
+	}
+	.navbar li {
+		width: 100%;
+		display: block; 
+	}
+	
+	#close{ 
+	border: none;
+	}
+	
+	#close:hover{
+	
+	border: 1px solid #d63031;
+	border-radius: 100px;
+	}
+	.btn{
+		width: 100%;
+		padding: 10px;
+		font-size: 0.8em;
+	}
+	
+}
